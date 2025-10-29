@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 환경
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 데이터 파일
+*.csv
+*.xlsx
+*.h5
+*.pkl
+*.pickle
+
+# 모델 파일
+*.pth
+*.h5
+*.pkl
+models/*.joblib
+
+# macOS
+.DS_Store
+
+# 결과 파일
+results/*.png
+results/*.pdf

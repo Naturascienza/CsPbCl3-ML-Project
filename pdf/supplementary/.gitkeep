@@ -1,0 +1,16 @@
+# 보충 자료 폴더
+
+이 폴더에는 다음 자료들을 저장합니다:
+
+- Supplementary Information (SI) 파일
+- 데이터시트
+- 추가 그림 및 표
+- 기타 보충 문서
+
+## 명명 규칙
+
+```
+SI_paper001.pdf              # 논문 1의 보충 자료
+datasheet_CsPbCl3_batch1.pdf # 실험 데이터시트
+figures_additional.pdf       # 추가 그림
+```
