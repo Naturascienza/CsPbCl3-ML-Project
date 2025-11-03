@@ -41,11 +41,23 @@ venv.bak/
 
 # 데이터 파일 (실제 데이터만 무시, 템플릿은 추적)
 data/*_collected.csv
+data/parallel_collected_*.csv
 data/raw/*.csv
 *.xlsx
 *.h5
 *.pkl
 *.pickle
+
+# PDF 파일 (용량 큼)
+pdf/downloaded/**/*.pdf
+pdf/supplementary/*.pdf
+pdf/supplementary/*.docx
+
+# 로그 파일
+logs/*.log
+
+# 임시 폴더
+temp_reference_data/
 
 # 템플릿 파일은 추적 (예외)
 !data/*_template.csv
